@@ -1,0 +1,37 @@
+{
+	"template_dir": "source",
+	"content_dir": "data",
+	"output_dir": "public",
+
+  "plugins": {
+    "template_engine": "punch-engine-jade",
+    "compilers": {
+      ".css": "punch-stylus-compiler"
+    }
+  },
+
+	"bundles": {
+		"/assets/stylesheets/main.css": [
+      "/assets/stylesheets/style.styl"
+		],
+		"/assets/javascripts/modernizr.js": [
+      "/assets/bower_components/modernizr/modernizr.js"
+		],
+		"/assets/javascripts/jquery.js": [
+      "/assets/bower_components/jquery/dist/jquery.js"
+		],
+		"/assets/javascripts/main.js": [
+      "/assets/javascripts/script.coffee"
+		]
+	},
+
+  "generator": {
+    "blank": true,
+    "skip_paths": [
+      "/assets/bower_components",
+      "/assets/bower.json",
+      "/assets/_*.*",
+      "README.md"
+    ]
+  }
+}

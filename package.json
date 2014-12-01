@@ -1,0 +1,20 @@
+{
+  "name": "punch-starter",
+  "version": "0.0.1",
+  "description": "Starter template for punch <https://github.com/laktek/punch>",
+  "main": ".",
+  "dependencies": {
+    "punch": "^0.5.45",
+    "punch-engine-jade": "^0.0.3",
+    "punch-stylus-compiler": "git://github.com/kaizau/punch-stylus-compiler.git"
+  },
+  "scripts": {
+    "start": "punch s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaizau/punch-starter"
+  },
+  "author": "Kai Zau <k@kaizau.com>",
+  "license": "MIT"
+}
